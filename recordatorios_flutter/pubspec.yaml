@@ -1,0 +1,27 @@
+name: recordatorios
+description: Recordatorios — App Multiplataforma (Android y iPhone iOS) con Motor Impeller de Flutter.
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/biblia_rvr1960.json
+    - assets/img_cross_emblem.png
+    - assets/img_bible_hero.jpg
+    - assets/img_promise_sunrise.jpg
